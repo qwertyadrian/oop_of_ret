@@ -34,7 +34,7 @@ int main() {
              * Это фактически поворачивает вектор направления на 90 градусов по часовой стрелке.
              * Затем счетчик dir_changes увеличивается.
              */
-            steps = SIZE * (dir_changes % 2) + SIZE * ((dir_changes + 1) % 2) - (dir_changes / 2 - 1) - 2;
+            steps = SIZE - (dir_changes / 2) - 1;
             int temp = dx;
             dx = -dy;
             dy = temp;
