@@ -16,4 +16,6 @@ int main() {
     for (size_t i = 0; i < 5; i++) {
         printf("Arr[%lu] = %d\n", i, *arr[i]);
     }
+
+    return 0;
 }

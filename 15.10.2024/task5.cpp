@@ -15,4 +15,6 @@ int main() {
     **a_ptr_ptr = 24;
 
     printf("Value after change: %d\n", **a_ptr_ptr);
+
+    return 0;
 }
