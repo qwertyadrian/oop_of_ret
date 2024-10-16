@@ -36,6 +36,6 @@ int mul(int a, int b){
     return a * b;
 }
 
-float divide(float a, float b){
+double divide(double a, double b){
     return a / b;
 }
