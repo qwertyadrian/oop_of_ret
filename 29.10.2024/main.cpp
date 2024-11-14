@@ -20,8 +20,8 @@
 typedef std::chrono::microseconds my_time;
 // using my_time = std::chrono::microseconds;
 
-std::chrono::_V2::steady_clock::time_point startTime;
-std::chrono::_V2::steady_clock::time_point endTime;
+std::chrono::steady_clock::time_point startTime;
+std::chrono::steady_clock::time_point endTime;
 my_time durationTime;
 
 void resetTime() {
